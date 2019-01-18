@@ -1,0 +1,26 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "description": "webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bytewalkers/Webhooks.git"
+  },
+  "keywords": [
+    "webhooks"
+  ],
+  "author": "PrabhanshuAttri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bytewalkers/Webhooks/issues"
+  },
+  "homepage": "https://github.com/Bytewalkers/Webhooks#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "path": "0.12.7"
+  }
+}
