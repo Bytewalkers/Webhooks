@@ -8,7 +8,7 @@ app.get('/', (req, res) => res.json({
   welcome: 'home',
 }));
 
-app.get('/github-pull', (req, res) => {
+app.post('/github-pull', (req, res) => {
   const { params, body, query } = req;
   console.log('params:', params);
   console.log('body:', body);
