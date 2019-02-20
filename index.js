@@ -17,6 +17,7 @@ app.post('/github-pull', (req, res) => {
   console.log('params:', params);
   console.log('body:', body);
   console.log('query:', query);
+  console.log('req.headers.host ', req.headers.host);
 
   res.json({ done: 'yes' });
 })
