@@ -1,2 +1,0 @@
-# Webhooks
-Dumps webhook payloads
